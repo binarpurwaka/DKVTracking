@@ -22,7 +22,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, RiwayatDataActivity::class.java))
         }
         cvPortofolio.setOnClickListener {
-            startActivity(Intent(this, PortofolioActivity::class.java))
+            startActivity(Intent(this, PortofolioDataActivity::class.java))
         }
         cvKesehatan.setOnClickListener {
             startActivity(Intent(this, KesehatanDataActivity::class.java))

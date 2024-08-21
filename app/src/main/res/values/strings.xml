@@ -5,4 +5,8 @@
         <item>XI</item>
         <item>XII</item>
     </array>
+    <string name="title_activity_riwayat_siswa">RiwayatSiswaActivity</string>
+    <string name="title_home">Portofolio</string>
+    <string name="title_dashboard">Prakerin</string>
+    <string name="title_notifications">Konseling</string>
 </resources>

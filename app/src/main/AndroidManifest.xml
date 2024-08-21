@@ -13,7 +13,22 @@
         android:theme="@style/Theme.DKVTracking"
         tools:targetApi="31">
         <activity
-            android:name=".PortofolioActivity"
+            android:name=".CurriculumVitaeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatKonselingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatPrakerinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatPortofolioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PortofolioTambahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PortofolioDataActivity"
             android:exported="false" />
         <activity
             android:name=".NilaiAkhirActivity"
@@ -32,6 +47,9 @@
             android:exported="true" />
         <activity
             android:name=".HomeActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,9 +57,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
     </application>
 
 </manifest>

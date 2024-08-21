@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_portofolio"
+        android:icon="@drawable/baseline_view_agenda_24"
+        android:title="Portfolio" />
+
+    <item
+        android:id="@+id/navigation_prakerin"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Prakerin" />
+
+    <item
+        android:id="@+id/navigation_konseling"
+        android:icon="@drawable/baseline_people_24"
+        android:title="Konseling" />
+
+</menu>
