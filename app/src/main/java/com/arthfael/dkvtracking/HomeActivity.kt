@@ -19,16 +19,16 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         init()
         cvRiwayat.setOnClickListener {
-//            startActivity(Intent(this, RiwayatActivity::class.java))
+            startActivity(Intent(this, RiwayatDataActivity::class.java))
         }
         cvPortofolio.setOnClickListener {
-//            startActivity(Intent(this, PortofolioActivity::class.java))
+            startActivity(Intent(this, PortofolioActivity::class.java))
         }
         cvKesehatan.setOnClickListener {
             startActivity(Intent(this, KesehatanDataActivity::class.java))
         }
         cvNilaiAkhir.setOnClickListener {
-//            startActivity(Intent(this, NilaiAkhirActivity::class.java))
+            startActivity(Intent(this, NilaiAkhirActivity::class.java))
         }
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

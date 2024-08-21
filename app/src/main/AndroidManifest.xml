@@ -13,18 +13,23 @@
         android:theme="@style/Theme.DKVTracking"
         tools:targetApi="31">
         <activity
+            android:name=".PortofolioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NilaiAkhirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".KesehatanUbahActivity"
             android:exported="false" />
         <activity
             android:name=".KesehatanTambahActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".KesehatanDataActivity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".HomeActivity"
             android:exported="true">
@@ -36,9 +41,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
