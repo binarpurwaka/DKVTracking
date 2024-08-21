@@ -152,6 +152,8 @@
                 android:background="@drawable/border_button1"
                 android:backgroundTint="#1E88E5"
                 android:text="Login"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
                 android:textColor="@color/white" />
         </LinearLayout>
 

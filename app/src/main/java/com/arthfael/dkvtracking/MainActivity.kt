@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
             etPassword.requestFocus()
         }else{
             startActivity(Intent(this, HomeActivity::class.java))
+            finish()
         }
     }
 }
